@@ -4,13 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Dad quotes</title>
     <!-- Favicon -->
-    <link
-      rel="icon"
-      type="image/png"
-      href="https://www.google.com/s2/u/0/favicons?domain=google.com"
-    />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
     <!-- Font Awesome CDN -->
     <link
       rel="stylesheet"
@@ -19,6 +15,23 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="quote-container" id="quote-container">
+      <!-- quote element -->
+      <div class="quote-text">
+        <i class="fa-solid fa-quote-left"></i>
+        <span id="quote">What are you waiting for?</span>
+      </div>
+      <!-- Author -->
+      <div class="quote-author">Dad</div>
+      <!-- buttons -->
+      <div class="button-container">
+        <button class="twitter-button" id="twitter" title="Tweet This!">
+          <i class="fa-brands fa-twitter"></i>
+        </button>
+        <button id="new-quote">New Quote</button>
+      </div>
+    </div>
+
     <!-- Script -->
     <script src="script.js"></script>
   </body>
